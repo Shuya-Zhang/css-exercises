@@ -1,15 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 1px solid red;
-}
-
 .header  {
   font-family: monospace;
   background: papayawhip;
   display: flex;
   justify-content: space-between;
-
 }
 
 .logo {
@@ -26,6 +19,8 @@ ul {
   list-style-type: none;
   display: flex;
   margin: 10px;
+  display: flex;
+  align-items: center;
 
 }
 
@@ -41,14 +36,5 @@ a {
   text-decoration: none;
 }
 
-.left-links {
-  display: flex;
-  align-items: center;
-}
-
-.right-links {
-  display: flex;
-  align-items: center;
-}
 
 
